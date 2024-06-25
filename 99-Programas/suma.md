@@ -1,7 +1,32 @@
-| Columna 1 | Columna 2 | Columna 3 |
-|-----------|-----------|-----------|
-| Fila 1, C1 | Fila 1, C2 | Fila 1, C3 |
-| Fila 2, C1 | Fila 2, C2 | Fila 2, C3 |
-| Fila 3, C1 | Fila 3, C2 | Fila 3, C3 |
-| Fila 4, C1 | Fila 4, C2 | Fila 4, C3 |
-| Fila 5, C1 | Fila 5, C2 | Fila 5, C3 |
+| NRO.LÍNEA | LEXEMA     |       TOKEN        |
+|-----------|------------|--------------------|
+| 5         | int        | *palabraReservada*   |
+| 5         | esNumero   | *identificador*      |
+| 5         | (          | *caracterPuntuacion* |
+| 5         | )          | *caracterPuntuacion* |
+| 5         | const char | *palabraReservada*   |
+| 5         | *          | *operador*           |
+| 5         | nro        | *identificador*      |
+| 5         | {          | *caracterPuntuacion* |
+| 6         | ret        | *identificador*      |
+| 6         | =          | *operador*           |
+| 6         | 1          | *constante*          |
+| 6         | ;          | *caracterPuntuacion* |
+| 7         | i          | *identificador*      |
+| 7         | 0          | *constante*          |
+| 8         | char       | *palabraReservada*   |
+| 8         | c          | *identificador*      |
+| 8         | [          | *operador*           |
+| 8         | ]          | *operador*           |
+| 9         | while      | *identificador*      |
+| 9         | '\0'       | *constante*          |
+| 9         | !=         | *operador*           |
+| 9         | &&         | *operador*           |
+| 9         | (          | *operador*           |
+| 9         | )          | *operador*           |
+| 11        | if         | *identificador*      |
+| 11        | isdigit    | *identificador*      |
+| 11        | ==         | *operador*           |
+| 14        |   }        | *caracterPuntuacion* |
+| 15        | ++         | *operador*           |
+| 18        | return     | *identificador*      |
